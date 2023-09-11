@@ -1,0 +1,51 @@
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b3348ae33f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> -->
+    <!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> -->
+    <title>To Do List</title>
+</head>
+
+<body>
+    <div class="container"><!-- Todo list body -->
+        <div class="todo-box">
+            <header class="heading">TO DO LIST</header>
+            <div class="inputbox">
+                <i class="fa-regular fa-file fa-2xl spx"></i><!-- file icon  -->
+                <input type="text" placeholder="Type your To Do List">
+                <i id="addbutton" class="fa-solid fa-plus"></i><!-- Add (plus) icon  -->
+            </div>
+            <div class="clckbutton">
+               
+                <span class=" btn clearall"> <i class="fa-solid fa-check-double"></i>Clear all task</span>
+                <span class=" btn clearcomtask">Clear Complete</span>
+            </div>
+            <hr>
+            <ul class="itemlist">
+               
+            </ul><!-- Empty Unorder Todolist for add list item -->
+            <hr>
+            <div class="clckbutton">
+                <span>
+                    <span class="pendingTasks"></span><!--Empty span for task count -->
+                    tasks left</span>
+                <div>
+                    <span class="pendingTasks" >All</span>
+                    <span class=" btn complete">Complete</span>
+                    <span class=" btn uncomplete">Uncomplete</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
